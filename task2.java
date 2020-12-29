@@ -136,6 +136,8 @@ public class task2{
         return a.lastIndexOf(b)==a.length()-b.length();
     }
     
+//10. Создайте функцию, которая принимает число (шаг) в качестве аргумента и
+//возвращает количество полей на этом шаге последовательности. 
     public static int boxSeq(int a){
         if (a%2 == 0) return a; 
         else return a+2;
